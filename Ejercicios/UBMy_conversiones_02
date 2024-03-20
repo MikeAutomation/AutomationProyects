@@ -1,0 +1,9 @@
+a=10
+b=20
+print("la suma es: "+ str(a+b))
+
+a = str(a)
+b = str(b)
+resultado = a + b
+
+print("la suma de cadenas es: "+ resultado)

@@ -1,0 +1,31 @@
+def saludo():
+    print("hola bienvenido")
+    print("Saludos dese python")
+    a=20
+    b=30
+    c=a+b
+    print("{} + {} = {}".format(a,b,c))
+
+print("Esto es una funcion: ")
+
+
+def saludos():
+    print("hola bienvenido")
+    print("Saludos dese python")
+print("Esto es una funcion: ")
+saludos()
+
+def suma(a,b):
+    a = int(a)
+    b = int(b)
+    sum = a + b
+    return sum
+    
+
+print("Dame A: ")
+a = input()
+print("Dame B: ")
+b = input()
+
+resutado = suma(a,b)
+print("la suma de los valores es: "+ str(resutado))

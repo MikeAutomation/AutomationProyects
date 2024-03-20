@@ -1,0 +1,32 @@
+for x in range(10,20):
+    print(x)
+
+
+for num in range(0,100, 7):
+    if(num >= 75):
+        break
+    print(num)
+
+for i in range(10):
+    if(i==6 or i==7 or i==9):
+        continue
+    print(i)
+
+inicio=1
+fin=10
+
+while(inicio<=fin):
+	print("hello world"+str(inicio))
+	inicio = inicio + 1
+	if(inicio==5):
+		break
+
+
+ini=1
+fn=10
+
+while(ini<=fn):
+	ini = ini + 1
+	if(ini==5):
+		continue
+	print("hello"+str(ini))
